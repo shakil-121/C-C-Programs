@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-// Function to find the waiting time for each process in RR
+// Function to find the waiting time for each process in Round Robin
 void findWaitingTime(int processes[], int n, int bt[], int wt[], int quantum, int at[]) {
     int remaining_time[n];
 
